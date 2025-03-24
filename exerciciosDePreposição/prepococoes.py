@@ -2,6 +2,7 @@
 valores = [(1, 1), (1, 0), (0, 1), (0, 0)]
 
 # Exibe o cabeçalho da tabela com as proposições lógicas
+print("\n=== PARTE 1: Tabela Verdade para P and !Q ===  ")
 print(" P | Q | !Q | P and !Q ")
 print("-" * 19)
 
@@ -25,6 +26,7 @@ valores = [(1, 1, 1), (1, 1, 0), (1, 0, 1),
            (0, 0, 1), (0, 0, 0)]
 
 # Exibe o cabeçalho da tabela com as proposições lógicas envolvendo P, Q e R
+print("\n=== PARTE 2: Tabela Verdade para (P or R) or (!Q and R) === ")
 print("\n P | Q | R | !Q | P or R | !Q and R | (P or R) or (!Q and R) ")
 print("-" * 53)
 
@@ -54,6 +56,7 @@ valores = [(1, 1, 1), (1, 1, 0), (1, 0, 1),
            (0, 0, 1)]
 
 # Exibe o cabeçalho da tabela com as proposições lógicas mais complexas
+print("\n=== PARTE 3: Tabela Verdade para (P or !Q) and (P and Q)) or ((P or R) or (!Q and R)) ===")
 print("\n P | Q | R | !Q | P or !Q | P and Q | P or R | !Q and R | ((P or !Q) and (P and Q)) or ((P or R) or (!Q and R)) ")
 print("-" * 100)
 
